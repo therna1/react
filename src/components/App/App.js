@@ -3,7 +3,6 @@ import styles from './App.scss';
 import List from '../List/List.js';
 import {pageContents, listData} from '../../data/dataStore';
 
-
 class App extends React.Component {
   render() {
     return (
@@ -13,7 +12,7 @@ class App extends React.Component {
           <List {...listData} />
       </main>
     );
-  };
-};
+  }
+}
 
 export default App;

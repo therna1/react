@@ -34,11 +34,11 @@ class List extends React.Component {
             title,
             icon: 'list-alt',
             cards: [],
-          }
-        ]
+          },
+        ],
       }
-    ))
-  };
+    ));
+  }
 
   render() {
     return (
@@ -59,7 +59,7 @@ class List extends React.Component {
         </div>
       </section>
     );
-  };
-};
+  }
+}
 
 export default List;
