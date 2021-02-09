@@ -3,15 +3,15 @@ import styles from './Card.scss';
 import PropTypes from 'prop-types';
 
 class Card extends React.Component {
-
   static propTypes = {
     title: PropTypes.string,
   };
 
-  render() {
+  render() { 
+    const {title} = this.props;
     return (
       <section className={styles.component}>
-        {this.props.title}
+        {title}
       </section>
     );
   }
