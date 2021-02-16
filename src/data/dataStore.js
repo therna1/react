@@ -1,4 +1,5 @@
 export const settings = {
+  headerIcon: 'cat',
   columnCreatorText: 'Add new column',
   cardCreatorText: 'Add new card',
   creator: {
@@ -10,6 +11,7 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
@@ -71,6 +73,20 @@ export const listData = {
     },
   ],
 };
+
+export const faq = {
+  title: 'DOLOR SIT AMET',
+  description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+
+}
+
+export const info = {
+  title: 'LOREM IPSUM',
+  description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+
+}
 
 const lists = [
   {
@@ -141,11 +157,15 @@ const cards = [
   },
 ];
 
+
+
+
 const initialStoreData = {
   app: {...pageContents},
   lists: [...lists],
   columns: [...columns],
   cards: [...cards],
-};
+ 
+}
 
 export default initialStoreData;
